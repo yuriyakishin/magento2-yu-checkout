@@ -1,0 +1,17 @@
+<!--
+/**
+ * Yu_Checkout
+ */
+-->
+<!-- ko if: isDisplayed() -->
+<div class="shipping-information-title">
+    <span data-bind="i18n: 'Order Summary:'">Order Summary:</span>
+</div>
+<table class="data table table-totals">    
+    <tbody>
+        <!-- ko foreach: elems() -->
+        <!-- ko template: getTemplate() --><!-- /ko -->
+        <!-- /ko -->
+    </tbody>
+</table>
+<!-- /ko -->

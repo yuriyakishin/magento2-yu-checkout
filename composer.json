@@ -1,0 +1,36 @@
+{
+    "name": "yuriyakishin/magento2-yu-checkout",
+    "description": "Checkout",
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Yuriy Akishin",
+            "homepage": "https://github.com/YuriyAkishin",
+            "email": "yuriy.akishin@gmail.com",
+            "skype": "yuriy-a76",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yuriyakishin/magento2-yu-checkout"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yu\\Checkout\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
