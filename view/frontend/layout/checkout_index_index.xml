@@ -22,7 +22,14 @@
                                                 <item name="shippingAddress" xsi:type="array">
                                                     <item name="config" xsi:type="array">
                                                         <item name="template" xsi:type="string">Yu_Checkout/shipping</item>
-                                                    </item>                                                    
+                                                    </item>
+                                                    <item name="children" xsi:type="array">
+                                                        <item name="address-list" xsi:type="array">
+                                                            <item name="config" xsi:type="array">
+                                                                <item name="template" xsi:type="string">Yu_Checkout/shipping-address/list</item>
+                                                            </item>
+                                                        </item>
+                                                    </item>                                                   
                                                 </item>
                                             </item>
                                         </item>

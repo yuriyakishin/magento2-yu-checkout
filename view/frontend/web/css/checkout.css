@@ -62,12 +62,38 @@
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 992px) {
+.opc-wrapper .shipping-address-item {
+    border: 1px solid #ccc;
+    line-height: normal;
+    padding: 10px 20px 10px 20px;
+}
+
+@media (min-width: 1024px) {
+    .opc-wrapper .shipping-address-item {
+        width: 100%!important;
+    }
+    .opc-wrapper .shipping-address-item:before {
+        background: transparent!important;
+    }
+}
+
+@media (max-width: 992px) {
     .yu-checkout-steps-col-50 {
         width: 100%;
         padding-bottom: 14px;
     }
 }
+
+@media (min-width: 768px) {
+    .opc-wrapper {
+        width: 100%!important;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        padding-right: 30px;
+    }
+}
+
 @media (min-width: 640px) {
     .table > tbody > tr > th, .table > tbody > tr > td {
         border-top: none;
